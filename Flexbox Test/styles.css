@@ -1,0 +1,38 @@
+body 
+{ 
+margin: 0;
+padding: 0;
+
+}
+
+h1 { text-align: center;
+    font: bolder;}
+
+.flex-container {
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    background-color: tomato;
+    border: 5px solid greenyellow;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img { 
+height: auto;
+width: auto;
+max-width: 100px;
+max-height: 100px;}
+
+.box {
+
+width: 480px;
+height: 250px;
+background-color: lightseagreen;
+border: 2px solid black;
+
+}    

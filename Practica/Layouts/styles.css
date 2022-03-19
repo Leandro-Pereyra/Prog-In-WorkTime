@@ -1,0 +1,117 @@
+ul {list-style: none;}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: coral;
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+}
+
+
+header { background-color: black;
+padding: 50px;
+font-size: 40px;
+letter-spacing: 80px;
+
+
+
+}
+/* Borde de texto negro , fondo transparente */
+.texto-borde {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+  }
+
+  nav { 
+
+
+    display: flex;  
+    flex-direction: row;
+
+    background-color:tomato;
+    padding: 0x;
+    justify-content: center;
+}
+
+nav a {
+
+color: black;
+padding: 14px 20px;
+text-decoration: none;
+font-size: 20px;
+
+}
+
+.row {
+display:  flex;
+flex-wrap: nowrap;
+}
+
+aside {
+
+    background-color: burlywood;
+    padding: 20px;
+    flex: 30px;
+
+
+}
+
+
+section {
+flex: 70%;
+background-color: crimson;
+padding: 20px;
+
+}
+
+
+footer {
+    background-color: coral;
+    padding: 0.5em;
+    font-size: 10px;
+    text-align: center;
+}
+
+footer p { font-size: 15px;
+    text-align: left;
+    margin-left: 4em;
+}
+
+@media screen and (max-width: 700px)
+ {
+  
+    nav, .row {flex-direction: column;}
+
+  
+}
+
+
+@media screen and (max-width:500px) {
+
+    section { background-color: black;
+    color: lime;}
+    
+}
+
+@media screen and (max-width:500px) {
+
+    aside { background-color: aquamarine;
+    color: black;}
+    
+}
+
+
+@media screen and (max-width:500px) {
+
+    footer { background-color: rgb(29, 7, 224);
+    color: rgb(255, 72, 0);
+        font-size: 20px;
+
+}
+    
+}
+
+.wsp { width: 50px;
+        height: auto;}

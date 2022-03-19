@@ -1,0 +1,90 @@
+body { height: 100%;
+        width: 100%;}
+
+
+h1  {
+    /* background-color: black;
+        color: lime; */
+        text-align: center;
+        font-size: 5em;
+        padding-top: none;
+        margin-top: -0.2em;
+    
+    }
+
+nav { background-color: #e3f2fd}
+
+
+
+ul { 
+    /* list-style: none;  */
+    background-color: pink;
+     text-align: left; 
+      padding-top: 3em;
+     margin-top: 5em;  
+     /* width: 20px; */
+    /* height: 20px; */
+    align-items: right;
+
+
+
+
+}
+
+
+.img
+ { width: 50%;
+    /* height: 100%; */
+}
+
+.logo { 
+      
+    padding: 5em; margin: 5em; border: 3px solid black; float: right;
+
+    width: 10em;
+    /* height: 10em; */
+    background-color: black;
+
+    margin-top: -10em;
+    margin-right: 40em;
+    position: relative;
+    left: 1em;
+    
+
+
+        }
+
+
+
+.TecHC { 
+            width: 30em;
+            height: 30em;
+            border: slateblue 0.3em solid;
+            /* margin-top: -20em; */
+            /* margin-left: 40em; */
+
+            position: relative;
+            top: 1vh;
+
+
+}
+
+.texto-1 { 
+  
+    color:black;
+    background-color: tomato;
+    /* letter-spacing: 3pt; */
+    font-weight: bold;
+
+        }
+
+
+        footer { background-color: black;
+                 color: lime;
+                text-align: center;
+                font-size: 4em;
+                font-weight: bold;
+        }
+
+/* 
+        .foto1 { padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; } */
